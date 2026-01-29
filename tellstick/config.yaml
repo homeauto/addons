@@ -1,16 +1,18 @@
 ---
-version: 2.2.1
+version: 2.2.2
 slug: tellstick
 name: TellStick
 description: TellStick and TellStick Duo service
 url: https://github.com/homeauto/addons
 arch:
-  - armhf
-  - armv7
   - aarch64
   - amd64
+<<<<<<< HEAD
   - i386
 image: homeaauto/{arch}-addon-tellstick
+=======
+image: homeassistant/{arch}-addon-tellstick
+>>>>>>> 200ee80 (update alpine to 3.20 and removeunsuported platforms)
 options:
   devices:
     - house: A
