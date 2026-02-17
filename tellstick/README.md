@@ -1,6 +1,6 @@
 # Home Assistant Add-on: TellStick
 
-Now runs on alpine3.17
+Now runs on alpine3.20
 
 TellStick and TellStick Duo service.
 
